@@ -19,7 +19,8 @@ namespace SugarStock.FORMs
         {
             InitializeComponent();
             postresManager = new PostresManager(); // Inicializa el manager de postres
-            CargarPostres();
+            //CargarPostres();
+            InicializarDataGridView();
             //InicializarDataGridView(); // Llama a la función para inicializar el DataGridView
 
             // Conectar eventos de botones
@@ -128,7 +129,7 @@ namespace SugarStock.FORMs
         private void Carrito_Load(object sender, EventArgs e)
         {
             // Aquí puedes agregar cualquier lógica que necesites al cargar el formulario
-            CargarPostres(); // Puedes llamar a CargarPostres si es necesario
+            //CargarPostres(); // Puedes llamar a CargarPostres si es necesario
         }
 
       

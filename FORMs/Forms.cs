@@ -20,7 +20,7 @@ namespace SugarStock
         public Forms()
         {
             InitializeComponent();
-            WindowState = FormWindowState.Maximized;
+            this.WindowState = FormWindowState.Maximized;
             this.Text = string.Empty;
             this.ControlBox = false;
             this.DoubleBuffered = true;
@@ -28,11 +28,13 @@ namespace SugarStock
             // Suscribirse a los eventos KeyPress de ambos TextBox
             TxtUser.KeyPress += TxtUser_KeyPress;
             TxtPassword.KeyPress += TxtPassword_KeyPress;
+            Gestor_credenciales credenciales = new Gestor_credenciales();
+            
         }
 
-
-        Credenciales credenciales = new Credenciales();
         
+
+
         AllProgram programstart = new AllProgram();
 
         private void Form1_Load(object sender, EventArgs e)
@@ -45,29 +47,7 @@ namespace SugarStock
 
         }
 
-        private void BtnCreate_Click(object sender, EventArgs e)
-        {
-            int id = int.Parse(TxtUser.Text);
-            string password  = TxtPassword.Text;
-            this.Hide();
-
-
-            if (credenciales.Textcorrect(id, password) == true)
-            {
-                programstart.Show();
-                this.Hide();
-            }
-            else if (id == 0000 && password == "Admin00")
-            {
-               // Owner Menuowner = new Owner(); 
-                //Menuowner.Show();
-                this.Hide(); 
-            }
-
-
-
-
-        }
+      
 
         private void LblUser_Click(object sender, EventArgs e)
         {
@@ -76,15 +56,15 @@ namespace SugarStock
 
         private void BtnCreate_MouseHover(object sender, EventArgs e)
         {
-            BtnCreate.ForeColor = Color.White;
-            BtnCreate.BackColor = Color.Black;
+            BtnLogin.ForeColor = Color.White;
+            BtnLogin.BackColor = Color.Black;
 
         }
 
         private void BtnCreate_MouseLeave(object sender, EventArgs e)
         {
-            BtnCreate.BackColor = Color.White;
-            BtnCreate.ForeColor = Color.Black;
+            BtnLogin.BackColor = Color.White;
+            BtnLogin.ForeColor = Color.Black;
         }
 
         private void TxtPassword_TextChanged(object sender, EventArgs e)
@@ -191,31 +171,7 @@ namespace SugarStock
             // Verificar si se presionó la tecla de espacio
             if (e.KeyChar == (char)Keys.Enter)
             {
-                // Si textBox2 está vacío, evitar la entrada del espacio
-                if (string.IsNullOrWhiteSpace(TxtPassword.Text))
-                {
-                    e.Handled = true; // Evitar que se ingrese el espacio
-                    
-                }
-                else if (!string.IsNullOrWhiteSpace(TxtUser.Text) && !string.IsNullOrWhiteSpace(TxtPassword.Text))
-                {
-                    int id = int.Parse(TxtUser.Text);
-                    string password = TxtPassword.Text;
-                    
-
-
-                    if (credenciales.Textcorrect(id, password) == true)
-                    {
-                        programstart.Show();
-                        this.Hide();
-                    }
-                    else if (id == 0000 && password == "Admin00")
-                    {
-                       // Owner Menuowner = new Owner();
-                       // Menuowner.Show();
-                        this.Hide();
-                    }
-                }
+               
             }
         }
 
@@ -223,33 +179,10 @@ namespace SugarStock
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
-                // Si textBox1 está vacío, evitar la entrada del Enter
-                if (string.IsNullOrWhiteSpace(TxtUser.Text))
-                {
-                    e.Handled = true; // Evitar que se ingrese el Enter
-                    
-                }
-                else if (!string.IsNullOrWhiteSpace(TxtUser.Text) && !string.IsNullOrWhiteSpace(TxtPassword.Text))
-                {
-                    int id = int.Parse(TxtUser.Text);
-                    string password = TxtPassword.Text;
-                    
-
-
-                    if (credenciales.Textcorrect(id, password) == true)
-                    {
-                        programstart.Show();
-                        this.Hide();
-                    }
-                    else if (id == 0000 && password == "Admin00")
-                    {
-                      //  Owner Menuowner = new Owner();
-                        //Menuowner.Show();
-                        this.Hide();
-                    }
+                
 
                     
-                }
+                
             }
         }
 
@@ -264,6 +197,69 @@ namespace SugarStock
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void BtnLogin_Click(object sender, EventArgs e)
+        {
+            // Obtener el texto de los TextBox
+            string usuario = TxtUser.Text;
+            string contraseña = TxtPassword.Text;
+
+            // Verificar que los campos no contengan los placeholders
+            if (usuario != "Username:" && contraseña != "Password:")
+            {
+                // Crear una instancia de Gestor_credenciales
+                Gestor_credenciales gestorCredenciales = new Gestor_credenciales();
+
+                // Validar las credenciales
+                if (gestorCredenciales.ValidarCredenciales(usuario, contraseña))
+                {
+                    // Si las credenciales son válidas, abrir el nuevo formulario
+                    programstart.Show(); // Muestra el nuevo formulario
+                    this.Hide(); // Oculta el formulario de login actual
+                }
+                else
+                {
+                    // Mensaje si las credenciales son incorrectas
+                    IsIncorrect.Visible = true;
+                    IsIncorrect.Text = "Credenciales incorrectas. Intenta de nuevo.";
+                    TxtPassword.Text = "Password:";
+                    TxtPassword.ForeColor = Color.LightGray;
+                    TxtPassword.PasswordChar = (char)0;
+                    TxtUser.Text = "Username:";
+                    TxtUser.ForeColor = Color.LightGray;
+                }
+            }
+            else
+            {
+                // Mensaje si los campos son inválidos
+                IsIncorrect.Visible= true;
+                IsIncorrect.Text = "Por favor, ingresa un nombre de usuario y una contraseña válidos.";
+                TxtPassword.Text = "Password:";
+                TxtPassword.ForeColor = Color.LightGray;
+                TxtPassword.PasswordChar = (char)0;
+                TxtUser.Text = "Username:";
+                TxtUser.ForeColor = Color.LightGray;
+            }
+
+        }
+
+        private void Btnexit_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void BtnMAX_Click(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Normal)
+                WindowState = FormWindowState.Maximized;
+            else
+                WindowState = FormWindowState.Normal;
+        }
+
+        private void btnMin_Click(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
         }
     }
 }

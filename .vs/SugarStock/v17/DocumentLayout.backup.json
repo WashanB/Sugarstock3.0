@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\forms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\forms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,35 +23,31 @@
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\models\\credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\models\\postresmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\postresmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\models\\gestor credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\gestor credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\models\\postres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\postres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\models\\credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\files\\txt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:files\\txt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SugarStock||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,7 +57,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,55 +82,107 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Forms.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs",
-              "RelativeDocumentMoniker": "FORMs\\Forms.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "FORMs\\Forms.cs [Dise\u00F1o]*",
+              "Title": "Forms.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.Designer.cs",
+              "RelativeDocumentMoniker": "FORMs\\Forms.Designer.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.Designer.cs",
+              "RelativeToolTip": "FORMs\\Forms.Designer.cs",
+              "ViewState": "AgIAABsBAAAAAAAAAAAowDMBAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T22:08:02.358Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AllProgram.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
-              "RelativeDocumentMoniker": "FORMs\\AllProgram.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
-              "RelativeToolTip": "FORMs\\AllProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T22:07:46.48Z",
+              "WhenOpened": "2024-12-01T05:47:05.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AllProgram.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
+              "RelativeDocumentMoniker": "FORMs\\AllProgram.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
+              "RelativeToolTip": "FORMs\\AllProgram.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T05:45:53.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AllProgram.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
               "RelativeDocumentMoniker": "FORMs\\AllProgram.cs",
               "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs [Dise\u00F1o]",
               "RelativeToolTip": "FORMs\\AllProgram.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:58:47.622Z",
+              "WhenOpened": "2024-12-01T05:42:30.753Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TXT.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Files\\TXT.cs",
-              "RelativeDocumentMoniker": "Files\\TXT.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Files\\TXT.cs",
-              "RelativeToolTip": "Files\\TXT.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Forms.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs",
+              "RelativeDocumentMoniker": "FORMs\\Forms.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs*",
+              "RelativeToolTip": "FORMs\\Forms.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:58:33.325Z"
+              "WhenOpened": "2024-12-01T04:48:13.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Forms.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs",
+              "RelativeDocumentMoniker": "FORMs\\Forms.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "FORMs\\Forms.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:47:35.504Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Gestor credenciales.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Gestor credenciales.cs",
+              "RelativeDocumentMoniker": "Models\\Gestor credenciales.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Gestor credenciales.cs",
+              "RelativeToolTip": "Models\\Gestor credenciales.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:34:30.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Credenciales.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Credenciales.cs",
+              "RelativeDocumentMoniker": "Models\\Credenciales.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Credenciales.cs",
+              "RelativeToolTip": "Models\\Credenciales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:20:39.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Carrito.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
+              "RelativeDocumentMoniker": "FORMs\\Carrito.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FORMs\\Carrito.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:02:31.672Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Postres.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Postres.cs",
               "RelativeDocumentMoniker": "Models\\Postres.cs",
@@ -134,11 +190,25 @@
               "RelativeToolTip": "Models\\Postres.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:59:15.995Z"
+              "WhenOpened": "2024-11-29T15:59:15.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
+              "RelativeDocumentMoniker": "FORMs\\Carrito.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
+              "RelativeToolTip": "FORMs\\Carrito.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAIwE4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:05:55.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "SugarStock",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\SugarStock.csproj",
               "RelativeDocumentMoniker": "SugarStock.csproj",
@@ -149,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -158,54 +228,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T15:57:13.298Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Forms.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs",
-              "RelativeDocumentMoniker": "FORMs\\Forms.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs*",
-              "RelativeToolTip": "FORMs\\Forms.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:55:41.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Credenciales.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Credenciales.cs",
-              "RelativeDocumentMoniker": "Models\\Credenciales.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Credenciales.cs",
-              "RelativeToolTip": "Models\\Credenciales.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:58:54.189Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PostresManager.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\PostresManager.cs",
-              "RelativeDocumentMoniker": "Models\\PostresManager.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\PostresManager.cs",
-              "RelativeToolTip": "Models\\PostresManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:59:25.831Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Carrito.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
-              "RelativeDocumentMoniker": "FORMs\\Carrito.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar0.3\\FORMs\\Carrito.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\basti\\OneDrive\\Documents\\Programming\\Sugar0.3\\FORMs\\Carrito.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T22:06:03.18Z"
             }
           ]
         },

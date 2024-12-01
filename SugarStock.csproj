@@ -95,6 +95,7 @@
       <DependentUpon>ORDENAR.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Credenciales.cs" />
+    <Compile Include="Models\Gestor credenciales.cs" />
     <Compile Include="Models\Nav.cs" />
     <Compile Include="Models\Postres.cs" />
     <Compile Include="Models\PostresManager.cs" />
