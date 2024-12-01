@@ -35,12 +35,19 @@
             this.TxtPassword = new System.Windows.Forms.TextBox();
             this.BtnCreate = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnlookpass = new FontAwesome.Sharp.IconButton();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnlookpass = new FontAwesome.Sharp.IconButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.HeaderPANEL = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // LblUser
@@ -135,27 +142,10 @@
             this.panel2.Controls.Add(this.LblUsername);
             this.panel2.Controls.Add(this.TxtPassword);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(210, 12);
+            this.panel2.Location = new System.Drawing.Point(233, 32);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(435, 574);
             this.panel2.TabIndex = 0;
-            // 
-            // btnlookpass
-            // 
-            this.btnlookpass.BackColor = System.Drawing.SystemColors.Window;
-            this.btnlookpass.Enabled = false;
-            this.btnlookpass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnlookpass.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnlookpass.IconChar = FontAwesome.Sharp.IconChar.EyeSlash;
-            this.btnlookpass.IconColor = System.Drawing.Color.White;
-            this.btnlookpass.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnlookpass.IconSize = 1;
-            this.btnlookpass.Location = new System.Drawing.Point(355, 341);
-            this.btnlookpass.Name = "btnlookpass";
-            this.btnlookpass.Size = new System.Drawing.Size(38, 26);
-            this.btnlookpass.TabIndex = 9;
-            this.btnlookpass.UseVisualStyleBackColor = false;
-            this.btnlookpass.Click += new System.EventHandler(this.btnlookpass_Click);
             // 
             // label2
             // 
@@ -178,6 +168,33 @@
             this.button1.Text = "Register";
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.HeaderPANEL);
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(871, 625);
+            this.panel1.TabIndex = 1;
+            // 
+            // btnlookpass
+            // 
+            this.btnlookpass.BackColor = System.Drawing.SystemColors.Window;
+            this.btnlookpass.Enabled = false;
+            this.btnlookpass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnlookpass.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnlookpass.IconChar = FontAwesome.Sharp.IconChar.EyeSlash;
+            this.btnlookpass.IconColor = System.Drawing.Color.White;
+            this.btnlookpass.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnlookpass.IconSize = 1;
+            this.btnlookpass.Location = new System.Drawing.Point(355, 341);
+            this.btnlookpass.Name = "btnlookpass";
+            this.btnlookpass.Size = new System.Drawing.Size(38, 26);
+            this.btnlookpass.TabIndex = 9;
+            this.btnlookpass.UseVisualStyleBackColor = false;
+            this.btnlookpass.Click += new System.EventHandler(this.btnlookpass_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
@@ -189,14 +206,45 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // HeaderPANEL
+            // 
+            this.HeaderPANEL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(251)))), ((int)(((byte)(205)))), ((int)(((byte)(199)))));
+            this.HeaderPANEL.Dock = System.Windows.Forms.DockStyle.Top;
+            this.HeaderPANEL.Location = new System.Drawing.Point(0, 0);
+            this.HeaderPANEL.Name = "HeaderPANEL";
+            this.HeaderPANEL.Size = new System.Drawing.Size(871, 26);
+            this.HeaderPANEL.TabIndex = 0;
+            this.HeaderPANEL.MouseDown += new System.Windows.Forms.MouseEventHandler(this.HeaderPANEL_MouseDown);
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.panel2);
+            this.panel4.Controls.Add(this.pictureBox2);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(0, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(871, 625);
+            this.panel4.TabIndex = 1;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::SugarStock.Properties.Resources.CXDDD;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(871, 625);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(147)))), ((int)(((byte)(134)))));
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(871, 625);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.MinimumSize = new System.Drawing.Size(887, 664);
             this.Name = "Forms";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
@@ -204,7 +252,10 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -222,5 +273,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private FontAwesome.Sharp.IconButton btnlookpass;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel HeaderPANEL;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

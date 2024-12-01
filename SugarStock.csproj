@@ -100,6 +100,8 @@
     <Compile Include="Models\PostresManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\CXDDD.png" />
+    <None Include="Resources\Sin nombre.png" />
     <None Include="Resources\cruz.png" />
     <None Include="Resources\Component 3.png" />
     <EmbeddedResource Include="FORMs\AllProgram.resx">

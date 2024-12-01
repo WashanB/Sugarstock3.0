@@ -7,6 +7,7 @@ using System.Data;
 using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -19,6 +20,11 @@ namespace SugarStock
         public Forms()
         {
             InitializeComponent();
+            WindowState = FormWindowState.Maximized;
+            this.Text = string.Empty;
+            this.ControlBox = false;
+            this.DoubleBuffered = true;
+            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             // Suscribirse a los eventos KeyPress de ambos TextBox
             TxtUser.KeyPress += TxtUser_KeyPress;
             TxtPassword.KeyPress += TxtPassword_KeyPress;
@@ -241,8 +247,23 @@ namespace SugarStock
                         //Menuowner.Show();
                         this.Hide();
                     }
+
+                    
                 }
             }
+        }
+
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        private void HeaderPANEL_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
 }

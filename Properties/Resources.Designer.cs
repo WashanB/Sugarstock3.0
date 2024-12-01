@@ -93,6 +93,16 @@ namespace SugarStock.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CXDDD {
+            get {
+                object obj = ResourceManager.GetObject("CXDDD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image_6 {
             get {
                 object obj = ResourceManager.GetObject("image 6", resourceCulture);
@@ -136,6 +146,16 @@ namespace SugarStock.Properties {
         internal static System.Drawing.Bitmap Merengue_Frances_Receta_6_1 {
             get {
                 object obj = ResourceManager.GetObject("Merengue-Frances-Receta-6 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sin_nombre {
+            get {
+                object obj = ResourceManager.GetObject("Sin nombre", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
