@@ -40,3 +40,4 @@ C:\Users\carlo\OneDrive\Documentos\MECAGIOENTODO2\obj\Debug\SugarStock.csproj.Co
 C:\Users\carlo\OneDrive\Documentos\MECAGIOENTODO2\obj\Debug\SugarStock.csproj.Up2Date
 C:\Users\carlo\OneDrive\Documentos\MECAGIOENTODO2\obj\Debug\SugarStock.exe
 C:\Users\carlo\OneDrive\Documentos\MECAGIOENTODO2\obj\Debug\SugarStock.pdb
+C:\Users\carlo\OneDrive\Documentos\MECAGIOENTODO2\obj\Debug\SugarStock.FORMs.Register.resources

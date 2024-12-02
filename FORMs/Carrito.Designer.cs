@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.dataGridViewCarrito = new System.Windows.Forms.DataGridView();
-            this.LabelTotal = new System.Windows.Forms.Label();
             this.buttonConfirmar = new System.Windows.Forms.Button();
             this.buttonEliminar = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.LabelTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCarrito)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -43,7 +43,7 @@
             this.dataGridViewCarrito.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewCarrito.Dock = System.Windows.Forms.DockStyle.Left;
             this.dataGridViewCarrito.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewCarrito.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewCarrito.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewCarrito.Name = "dataGridViewCarrito";
             this.dataGridViewCarrito.RowHeadersWidth = 51;
             this.dataGridViewCarrito.RowTemplate.Height = 24;
@@ -51,23 +51,11 @@
             this.dataGridViewCarrito.TabIndex = 0;
             this.dataGridViewCarrito.VisibleChanged += new System.EventHandler(this.dataGridViewCarrito_VisibleChanged);
             // 
-            // LabelTotal
-            // 
-            this.LabelTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LabelTotal.AutoSize = true;
-            this.LabelTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.LabelTotal.Location = new System.Drawing.Point(1008, 515);
-            this.LabelTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.LabelTotal.Name = "LabelTotal";
-            this.LabelTotal.Size = new System.Drawing.Size(79, 29);
-            this.LabelTotal.TabIndex = 1;
-            this.LabelTotal.Text = "label1";
-            // 
             // buttonConfirmar
             // 
             this.buttonConfirmar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonConfirmar.Location = new System.Drawing.Point(881, 570);
-            this.buttonConfirmar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonConfirmar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonConfirmar.Name = "buttonConfirmar";
             this.buttonConfirmar.Size = new System.Drawing.Size(90, 41);
             this.buttonConfirmar.TabIndex = 2;
@@ -78,7 +66,7 @@
             // 
             this.buttonEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonEliminar.Location = new System.Drawing.Point(993, 570);
-            this.buttonEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonEliminar.Name = "buttonEliminar";
             this.buttonEliminar.Size = new System.Drawing.Size(94, 41);
             this.buttonEliminar.TabIndex = 3;
@@ -96,6 +84,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1143, 642);
             this.panel1.TabIndex = 4;
+            // 
+            // LabelTotal
+            // 
+            this.LabelTotal.AutoSize = true;
+            this.LabelTotal.Location = new System.Drawing.Point(1009, 527);
+            this.LabelTotal.Name = "LabelTotal";
+            this.LabelTotal.Size = new System.Drawing.Size(35, 13);
+            this.LabelTotal.TabIndex = 4;
+            this.LabelTotal.Text = "label1";
             // 
             // Carrito
             // 
@@ -115,9 +112,9 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridViewCarrito;
-        private System.Windows.Forms.Label LabelTotal;
         private System.Windows.Forms.Button buttonConfirmar;
         private System.Windows.Forms.Button buttonEliminar;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label LabelTotal;
     }
 }

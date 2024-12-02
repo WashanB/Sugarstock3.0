@@ -94,6 +94,12 @@
     <Compile Include="FORMs\ORDENAR.Designer.cs">
       <DependentUpon>ORDENAR.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORMs\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMs\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Credenciales.cs" />
     <Compile Include="Models\Gestor credenciales.cs" />
     <Compile Include="Models\Nav.cs" />
@@ -101,6 +107,8 @@
     <Compile Include="Models\PostresManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Resources\FONDO2.png" />
+    <None Include="Resources\Cook.jpeg" />
     <None Include="Resources\CXDDD.png" />
     <None Include="Resources\Sin nombre.png" />
     <None Include="Resources\cruz.png" />
@@ -122,6 +130,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FORMs\ORDENAR.resx">
       <DependentUpon>ORDENAR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMs\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -22,7 +22,7 @@ namespace SugarStock.FORMs
         private Form currentChildForm;
         private PostresManager postresManager;
         
-        public AllProgram()
+        public AllProgram(FormWindowState estado)
         {
             InitializeComponent();
             leftBorderBtn = new System.Windows.Forms.Panel();
@@ -31,13 +31,13 @@ namespace SugarStock.FORMs
             this.Text = string.Empty;
             this.ControlBox = false;
             this.DoubleBuffered = true;
+            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             postresManager = new PostresManager();
-
-
+            this.WindowState = estado;
         }
-        
-        
 
+       
+        
         private struct Colors
         {
             public static Color color1 = Color.FromArgb(162,18,47);

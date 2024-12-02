@@ -45,31 +45,10 @@ namespace SugarStock.FORMs
             //dataGridViewCarrito.Rows.Clear(); // Limpia las filas existentes
             dataGridViewCarrito.DataSource = null;
             dataGridViewCarrito.DataSource = postresManager.Postres;
-            /*foreach (var postre in postresManager.Postres)
-            {
-                // Agregar una nueva fila con los datos del postre
-                dataGridViewCarrito.Rows.Add(postre.Id, postre.Nombre, postre.Descripcion, postre.Precio.ToString("C"), 1, postre.Precio.ToString("C")); // Asumimos cantidad 1
-                dataGridViewCarrito.Columns["Cantidad"].ReadOnly = false; // Hacer que la columna de cantidad sea editable
-            }*/
-
-            //ActualizarTotal(); // Actualiza el total al cargar los postres
+            
         }
-        //private void ActualizarTotal()
-        //{
-        //    double total = 0;
-
-        //    foreach (DataGridViewRow row in dataGridViewCarrito.Rows)
-        //    {
-        //        if (row.Cells["Precio"].Value != null && row.Cells["Cantidad"].Value != null)
-        //        {
-        //            double precio = Convert.ToDouble(row.Cells["Precio"].Value.ToString().Replace("C$", "").Trim());
-        //            int cantidad = Convert.ToInt32(row.Cells["Cantidad"].Value);
-        //            total += precio * cantidad; // Sumar el total
-        //        }
-        //    }
-
-        //    LabelTotal.Text = $"Total: {total.ToString("C")}";
-        //}
+        
+        
         private void buttonEliminar_Click(object sender, EventArgs e)
         {
             if (dataGridViewCarrito.SelectedRows.Count > 0)

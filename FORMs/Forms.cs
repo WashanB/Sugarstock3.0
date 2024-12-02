@@ -20,7 +20,8 @@ namespace SugarStock
         public Forms()
         {
             InitializeComponent();
-            this.WindowState = FormWindowState.Maximized;
+            
+            //maximized(estado);
             this.Text = string.Empty;
             this.ControlBox = false;
             this.DoubleBuffered = true;
@@ -31,15 +32,29 @@ namespace SugarStock
             Gestor_credenciales credenciales = new Gestor_credenciales();
             
         }
-
         
 
+        public bool max;
+        
+        public void maximized(FormWindowState estate)
+        {
+            
+            if (estate == FormWindowState.Maximized)
+            {
+                this.WindowState = estate;
+            }
+            else if (estate == FormWindowState.Normal)
+            {
+                this.WindowState= FormWindowState.Normal;
+            }
 
-        AllProgram programstart = new AllProgram();
+        }
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.WindowState = FormWindowState.Maximized;
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -117,7 +132,6 @@ namespace SugarStock
                 TxtPassword.Text = "";
                 TxtPassword.ForeColor = Color.Black;
                 TxtPassword.PasswordChar = Convert.ToChar("•");
-
             }
 
         }
@@ -132,7 +146,6 @@ namespace SugarStock
                 btnlookpass.IconColor = Color.White;
                 btnlookpass.IconSize = 1;
                 btnlookpass.Enabled = false;
-
             }
         }
 
@@ -214,9 +227,12 @@ namespace SugarStock
                 // Validar las credenciales
                 if (gestorCredenciales.ValidarCredenciales(usuario, contraseña))
                 {
+                    AllProgram programstart = new AllProgram(this.WindowState);
                     // Si las credenciales son válidas, abrir el nuevo formulario
                     programstart.Show(); // Muestra el nuevo formulario
                     this.Hide(); // Oculta el formulario de login actual
+                    
+
                 }
                 else
                 {
@@ -260,6 +276,13 @@ namespace SugarStock
         private void btnMin_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Register register = new Register(this.WindowState);
+            register.Show();
+            this.Hide();
         }
     }
 }
