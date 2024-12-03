@@ -86,10 +86,50 @@ namespace SugarStock.FORMs
         {
 
         }
-
         private void BtnCart_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"Se han agregado {cant} productos correctamente al carrito");
+            // Obtener información del producto
+            string nombreProducto = Namelb.Text; // Nombre del postre
+            string descripcionProducto = DescLB.Text; // Descripción del postre
+            double precioProducto;
+
+            // Intentar obtener el precio y manejar posibles errores
+            if (!double.TryParse(PriceLB.Text.Replace(" C$", "").Trim(), out precioProducto))
+            {
+                MessageBox.Show("Error al obtener el precio del producto.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            int cantidadProducto;
+
+            // Intentar obtener la cantidad y manejar posibles errores
+            if (!int.TryParse(CantLB.Text, out cantidadProducto) || cantidadProducto <= 0)
+            {
+                MessageBox.Show("Por favor, selecciona una cantidad válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Obtener referencia al formulario Carrito
+            Carrito carritoForm = Application.OpenForms.OfType<Carrito>().FirstOrDefault();
+
+            // Si el carrito no está abierto, crear una nueva instancia
+            if (carritoForm == null)
+            {
+                carritoForm = new Carrito();
+                carritoForm.Show();
+            }
+
+            // Agregar el producto al carrito
+            carritoForm.AgregarProducto(nombreProducto, descripcionProducto, precioProducto, cantidadProducto);
+
+            // Mostrar un mensaje de confirmación
+            MessageBox.Show($"Se han agregado {cantidadProducto} {nombreProducto}(s) correctamente al carrito",
+                            "Confirmación",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information);
+
+            // Opcional: cerrar el formulario de orden o resetear la cantidad
+            this.Close(); // Cierra el formulario de orden
         }
 
         private void Namelb_Click(object sender, EventArgs e)

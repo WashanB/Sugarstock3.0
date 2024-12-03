@@ -43,21 +43,22 @@
             this.dataGridViewCarrito.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewCarrito.Dock = System.Windows.Forms.DockStyle.Left;
             this.dataGridViewCarrito.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewCarrito.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridViewCarrito.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridViewCarrito.Name = "dataGridViewCarrito";
             this.dataGridViewCarrito.RowHeadersWidth = 51;
             this.dataGridViewCarrito.RowTemplate.Height = 24;
-            this.dataGridViewCarrito.Size = new System.Drawing.Size(617, 642);
+            this.dataGridViewCarrito.Size = new System.Drawing.Size(823, 790);
             this.dataGridViewCarrito.TabIndex = 0;
+            this.dataGridViewCarrito.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewCarrito_CellContentClick);
             this.dataGridViewCarrito.VisibleChanged += new System.EventHandler(this.dataGridViewCarrito_VisibleChanged);
             // 
             // buttonConfirmar
             // 
             this.buttonConfirmar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonConfirmar.Location = new System.Drawing.Point(881, 570);
-            this.buttonConfirmar.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonConfirmar.Location = new System.Drawing.Point(1175, 702);
+            this.buttonConfirmar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonConfirmar.Name = "buttonConfirmar";
-            this.buttonConfirmar.Size = new System.Drawing.Size(90, 41);
+            this.buttonConfirmar.Size = new System.Drawing.Size(120, 50);
             this.buttonConfirmar.TabIndex = 2;
             this.buttonConfirmar.Text = "Confirmar";
             this.buttonConfirmar.UseVisualStyleBackColor = true;
@@ -65,10 +66,10 @@
             // buttonEliminar
             // 
             this.buttonEliminar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonEliminar.Location = new System.Drawing.Point(993, 570);
-            this.buttonEliminar.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonEliminar.Location = new System.Drawing.Point(1324, 702);
+            this.buttonEliminar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonEliminar.Name = "buttonEliminar";
-            this.buttonEliminar.Size = new System.Drawing.Size(94, 41);
+            this.buttonEliminar.Size = new System.Drawing.Size(125, 50);
             this.buttonEliminar.TabIndex = 3;
             this.buttonEliminar.Text = "Eliminar";
             this.buttonEliminar.UseVisualStyleBackColor = true;
@@ -81,25 +82,28 @@
             this.panel1.Controls.Add(this.dataGridViewCarrito);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1143, 642);
+            this.panel1.Size = new System.Drawing.Size(1524, 790);
             this.panel1.TabIndex = 4;
             // 
             // LabelTotal
             // 
             this.LabelTotal.AutoSize = true;
-            this.LabelTotal.Location = new System.Drawing.Point(1009, 527);
+            this.LabelTotal.Location = new System.Drawing.Point(729, 172);
+            this.LabelTotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelTotal.Name = "LabelTotal";
-            this.LabelTotal.Size = new System.Drawing.Size(35, 13);
+            this.LabelTotal.Size = new System.Drawing.Size(0, 16);
             this.LabelTotal.TabIndex = 4;
-            this.LabelTotal.Text = "label1";
+            this.LabelTotal.Click += new System.EventHandler(this.LabelTotal_Click);
             // 
             // Carrito
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1143, 642);
+            this.ClientSize = new System.Drawing.Size(1524, 790);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Carrito";
             this.Load += new System.EventHandler(this.Carrito_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCarrito)).EndInit();

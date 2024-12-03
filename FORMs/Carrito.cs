@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,6 +31,7 @@ namespace SugarStock.FORMs
             // Conectar el evento Load
             this.Load += Carrito_Load; // Asegúrate de que esta línea esté aquí si usas Carrito_Load
         }
+
         private void InicializarDataGridView()
         {
             dataGridViewCarrito.Columns.Clear();
@@ -47,18 +49,32 @@ namespace SugarStock.FORMs
             dataGridViewCarrito.DataSource = postresManager.Postres;
             
         }
-        
-        
+
+
         private void buttonEliminar_Click(object sender, EventArgs e)
         {
             if (dataGridViewCarrito.SelectedRows.Count > 0)
             {
+                // Crear una lista para almacenar los índices de las filas a eliminar
+                List<int> rowsToDelete = new List<int>();
+
+                // Recorrer las filas seleccionadas y almacenar los índices
                 foreach (DataGridViewRow row in dataGridViewCarrito.SelectedRows)
                 {
-                    dataGridViewCarrito.Rows.RemoveAt(row.Index); // Eliminar fila seleccionada
+                    if (!row.IsNewRow) // Verificar que no sea una nueva fila
+                    {
+                        rowsToDelete.Add(row.Index);
+                    }
                 }
 
-                //ActualizarTotal(); // Actualizar el total después de eliminar
+                // Eliminar las filas en orden inverso para evitar problemas de índice
+                for (int i = rowsToDelete.Count - 1; i >= 0; i--)
+                {
+                    dataGridViewCarrito.Rows.RemoveAt(rowsToDelete[i]);
+                }
+
+                // Actualizar total después de eliminar
+                // ActualizarTotal(); 
             }
             else
             {
@@ -86,13 +102,23 @@ namespace SugarStock.FORMs
                     double precio = Convert.ToDouble(row.Cells["Precio"].Value.ToString().Replace("C$", "").Trim());
                     double total = cantidad * precio;
 
-                    pedidoDetalles += $"{nombre} - Cantidad: {cantidad}, Total: {total.ToString("C")}\n";
+                    pedidoDetalles += $"{nombre} - Cantidad: {cantidad}, Total: {total.ToString("C", CultureInfo.CurrentCulture)}\n";
                 }
             }
 
-            // Mostrar detalles del pedido y el total
-            double totalFinal = Convert.ToDouble(LabelTotal.Text.Replace("Total: C$", "").Trim());
-            pedidoDetalles += $"\nTotal a pagar: {totalFinal.ToString("C")}";
+            // Validar el contenido de LabelTotal
+            double totalFinal = 0;
+            try
+            {
+                totalFinal = Convert.ToDouble(LabelTotal.Text.Replace("Total: C$", "").Trim());
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("El total no es válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            pedidoDetalles += $"\nTotal a pagar: {totalFinal.ToString("C", CultureInfo.CurrentCulture)}";
 
             // Aquí puedes implementar la lógica para guardar el pedido o enviarlo a una base de datos
 
@@ -101,10 +127,9 @@ namespace SugarStock.FORMs
             // Limpiar el carrito después de confirmar
             dataGridViewCarrito.Rows.Clear();
             LabelTotal.Text = "Total: C$0"; // Reiniciar el total
-
         }
-       
-        
+
+
         private void Carrito_Load(object sender, EventArgs e)
         {
             // Aquí puedes agregar cualquier lógica que necesites al cargar el formulario
@@ -135,6 +160,16 @@ namespace SugarStock.FORMs
         
 
         private void dataGridViewCarrito_VisibleChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LabelTotal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridViewCarrito_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

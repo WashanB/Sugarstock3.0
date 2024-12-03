@@ -1,61 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\",
+  "WorkspaceRootPath": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\onedrive\\documents\\programming\\sugar\\forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\onedrive\\documents\\programming\\sugar\\forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\models\\gestor credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\gestor credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\files\\txt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:files\\txt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\models\\credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\forms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\forms.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\models\\postres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\postres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SugarStock||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\onedrive\\documents\\programming\\sugar\\forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,22 +26,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Forms.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs",
-              "RelativeDocumentMoniker": "FORMs\\Forms.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs",
-              "RelativeToolTip": "FORMs\\Forms.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:48:13.12Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -91,6 +38,10 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
@@ -98,171 +49,54 @@
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Register.cs",
-              "RelativeDocumentMoniker": "FORMs\\Register.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Register.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "FORMs\\Register.cs [Dise\u00F1o]*",
+              "Title": "ORDENAR.cs",
+              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\ORDENAR.cs",
+              "RelativeDocumentMoniker": "FORMs\\ORDENAR.cs",
+              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\ORDENAR.cs*",
+              "RelativeToolTip": "FORMs\\ORDENAR.cs*",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwHoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T00:57:13.979Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-03T16:34:38.756Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Forms.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs",
-              "RelativeDocumentMoniker": "FORMs\\Forms.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FORMs\\Forms.cs [Dise\u00F1o]",
+              "Title": "ORDENAR.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\ORDENAR.cs",
+              "RelativeDocumentMoniker": "FORMs\\ORDENAR.cs",
+              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\ORDENAR.cs [Design]*",
+              "RelativeToolTip": "FORMs\\ORDENAR.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:47:35.504Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-03T16:18:23.263Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Register.cs",
-              "RelativeDocumentMoniker": "FORMs\\Register.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Register.cs*",
-              "RelativeToolTip": "FORMs\\Register.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T01:10:39.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AllProgram.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
-              "RelativeDocumentMoniker": "FORMs\\AllProgram.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
-              "RelativeToolTip": "FORMs\\AllProgram.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T05:45:53.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Carrito.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
+              "Title": "Carrito.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\Carrito.cs",
               "RelativeDocumentMoniker": "FORMs\\Carrito.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FORMs\\Carrito.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\Carrito.cs [Design]*",
+              "RelativeToolTip": "FORMs\\Carrito.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T04:02:31.672Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Carrito.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\Carrito.cs",
               "RelativeDocumentMoniker": "FORMs\\Carrito.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
-              "RelativeToolTip": "FORMs\\Carrito.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAADwv2YAAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\Carrito.cs*",
+              "RelativeToolTip": "FORMs\\Carrito.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T04:05:55.291Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Credenciales.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Credenciales.cs",
-              "RelativeDocumentMoniker": "Models\\Credenciales.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Credenciales.cs",
-              "RelativeToolTip": "Models\\Credenciales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:20:39.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TXT.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Files\\TXT.cs",
-              "RelativeDocumentMoniker": "Files\\TXT.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Files\\TXT.cs",
-              "RelativeToolTip": "Files\\TXT.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T23:58:14.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Gestor credenciales.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Gestor credenciales.cs",
-              "RelativeDocumentMoniker": "Models\\Gestor credenciales.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Gestor credenciales.cs",
-              "RelativeToolTip": "Models\\Gestor credenciales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:34:30.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Forms.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.Designer.cs",
-              "RelativeDocumentMoniker": "FORMs\\Forms.Designer.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.Designer.cs",
-              "RelativeToolTip": "FORMs\\Forms.Designer.cs",
-              "ViewState": "AgIAABwBAAAAAAAAAAAowDQBAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T05:47:05.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:57:13.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Postres.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Postres.cs",
-              "RelativeDocumentMoniker": "Models\\Postres.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Postres.cs",
-              "RelativeToolTip": "Models\\Postres.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T15:59:15.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SugarStock",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\SugarStock.csproj",
-              "RelativeDocumentMoniker": "SugarStock.csproj",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\SugarStock.csproj",
-              "RelativeToolTip": "SugarStock.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-29T15:57:19.373Z"
             }
           ]
         },
