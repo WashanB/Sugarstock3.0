@@ -173,6 +173,16 @@ namespace SugarStock.FORMs
         {
 
         }
+
+        internal object AgregarProducto(string nombreProducto, string descripcionProducto, double precioProducto, int cantidadProducto)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 
   }

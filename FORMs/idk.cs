@@ -16,5 +16,10 @@ namespace SugarStock.FORMs
         {
             InitializeComponent();
         }
+
+        private void idk_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

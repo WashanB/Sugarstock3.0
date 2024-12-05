@@ -120,7 +120,7 @@ namespace SugarStock.FORMs
             }
 
             // Agregar el producto al carrito
-            carritoForm.AgregarProducto(nombreProducto, descripcionProducto, precioProducto, cantidadProducto);
+            object value = carritoForm.AgregarProducto(nombreProducto, descripcionProducto, precioProducto, cantidadProducto);
 
             // Mostrar un mensaje de confirmación
             MessageBox.Show($"Se han agregado {cantidadProducto} {nombreProducto}(s) correctamente al carrito",

@@ -9,14 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\onedrive\\documents\\programming\\sugar\\forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\basti\\onedrive\\documents\\programming\\sugar\\forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +46,11 @@
               "Title": "ORDENAR.cs",
               "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\ORDENAR.cs",
               "RelativeDocumentMoniker": "FORMs\\ORDENAR.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\ORDENAR.cs*",
-              "RelativeToolTip": "FORMs\\ORDENAR.cs*",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAcwHoAAAALAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\ORDENAR.cs",
+              "RelativeToolTip": "FORMs\\ORDENAR.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:34:38.756Z",
+              "WhenOpened": "2024-12-05T21:15:16.137Z",
               "EditorCaption": ""
             },
             {
@@ -67,36 +59,11 @@
               "Title": "ORDENAR.cs [Design]",
               "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\ORDENAR.cs",
               "RelativeDocumentMoniker": "FORMs\\ORDENAR.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\ORDENAR.cs [Design]*",
-              "RelativeToolTip": "FORMs\\ORDENAR.cs [Design]*",
+              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\ORDENAR.cs [Design]",
+              "RelativeToolTip": "FORMs\\ORDENAR.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T16:18:23.263Z",
+              "WhenOpened": "2024-12-05T21:15:12.178Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Carrito.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\Carrito.cs",
-              "RelativeDocumentMoniker": "FORMs\\Carrito.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\Carrito.cs [Design]*",
-              "RelativeToolTip": "FORMs\\Carrito.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:02:31.672Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Carrito.cs",
-              "DocumentMoniker": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\Carrito.cs",
-              "RelativeDocumentMoniker": "FORMs\\Carrito.cs",
-              "ToolTip": "C:\\Users\\basti\\OneDrive\\Documents\\Programming\\Sugar\\FORMs\\Carrito.cs*",
-              "RelativeToolTip": "FORMs\\Carrito.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T04:05:55.291Z",
-              "EditorCaption": ""
             }
           ]
         },
