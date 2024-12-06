@@ -21,11 +21,13 @@ namespace SugarStock.FORMs
        
         private AllProgram mainForm;
 
-        public Menu_principal(AllProgram mainForm)
+        public Menu_principal(AllProgram mainForm, string user)
         {
             InitializeComponent();
             this.mainForm = mainForm;
+            usuario = user;
         }
+        string usuario;
        
         private void pictureBox4_Click(object sender, EventArgs e)
         {
@@ -36,7 +38,7 @@ namespace SugarStock.FORMs
             
 
             // Abre el formulario ORDENAR pasando los datos necesarios
-            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice, usuario));
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -53,7 +55,7 @@ namespace SugarStock.FORMs
             
 
             // Abre el formulario ORDENAR pasando los datos necesarios
-            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice,usuario));
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
@@ -65,7 +67,7 @@ namespace SugarStock.FORMs
             
 
             // Abre el formulario ORDENAR pasando los datos necesarios
-            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice, usuario));
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -77,7 +79,7 @@ namespace SugarStock.FORMs
             
 
             // Abre el formulario ORDENAR pasando los datos necesarios
-            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice, usuario));
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -89,7 +91,7 @@ namespace SugarStock.FORMs
             
 
             // Abre el formulario ORDENAR pasando los datos necesarios
-            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice, usuario));
 
         }
 
@@ -103,7 +105,7 @@ namespace SugarStock.FORMs
             
 
             // Abre el formulario ORDENAR pasando los datos necesarios
-            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice, usuario));
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -115,7 +117,7 @@ namespace SugarStock.FORMs
             
 
             // Abre el formulario ORDENAR pasando los datos necesarios
-            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice, usuario));
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
@@ -138,7 +140,7 @@ namespace SugarStock.FORMs
             
 
             // Abre el formulario ORDENAR pasando los datos necesarios
-            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice, usuario));
 
 
 
@@ -153,7 +155,7 @@ namespace SugarStock.FORMs
             
 
             // Abre el formulario ORDENAR pasando los datos necesarios
-            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice));
+            mainForm.OpenChildForm(new ORDENAR(pname, pdesc, image, pprice, usuario));
         }
 
         private void label1_Click(object sender, EventArgs e)

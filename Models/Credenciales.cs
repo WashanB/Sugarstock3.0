@@ -15,7 +15,7 @@ namespace SugarStock.Models
     {
         public string User { get; set ; }
         public string Password { get;set; }
-
+        
         public Credenciales(string usuario, string contraseña)
         {
             if (string.IsNullOrWhiteSpace(usuario))

@@ -227,7 +227,10 @@ namespace SugarStock
                 // Validar las credenciales
                 if (gestorCredenciales.ValidarCredenciales(usuario, contraseña))
                 {
-                    AllProgram programstart = new AllProgram(this.WindowState);
+                    AllProgram programstart = new AllProgram(this.WindowState, usuario);
+                    GestorDeHistorial gestorDeHistorial = new GestorDeHistorial(usuario);
+                    
+                    gestorDeHistorial.CargarCarrito();
                     // Si las credenciales son válidas, abrir el nuevo formulario
                     programstart.Show(); // Muestra el nuevo formulario
                     this.Hide(); // Oculta el formulario de login actual

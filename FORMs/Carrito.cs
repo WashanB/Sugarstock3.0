@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SugarStock.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,15 +15,19 @@ namespace SugarStock.FORMs
     public partial class Carrito : Form
     {
         private PostresManager postresManager = new PostresManager();
+        
        /// private Carrito carrito;
 
-        public Carrito()
+        public Carrito(string user)
         {
+            GestorDeHistorial gestorDeHistorial = new GestorDeHistorial(user);
+            CarritoList = gestorDeHistorial.CargarCarrito();
             InitializeComponent();
             postresManager = new PostresManager(); // Inicializa el manager de postres
             //CargarPostres();
-            InicializarDataGridView();
-            //InicializarDataGridView(); // Llama a la función para inicializar el DataGridView
+            //InicializarDataGridView();
+            string usua = user;
+            // Llama a la función para inicializar el DataGridView
 
             // Conectar eventos de botones
             buttonEliminar.Click += buttonEliminar_Click;
@@ -31,16 +36,21 @@ namespace SugarStock.FORMs
             // Conectar el evento Load
             this.Load += Carrito_Load; // Asegúrate de que esta línea esté aquí si usas Carrito_Load
         }
-
+        List<Carritos> CarritoList;
+        string usua;
         private void InicializarDataGridView()
         {
             dataGridViewCarrito.Columns.Clear();
-            dataGridViewCarrito.Columns.Add("Id", "ID");
-            dataGridViewCarrito.Columns.Add("Nombre", "Nombre");
-            dataGridViewCarrito.Columns.Add("Descripcion", "Descripción");
-            dataGridViewCarrito.Columns.Add("Precio", "Precio");
-            dataGridViewCarrito.Columns.Add("Cantidad", "Cantidad");
-            dataGridViewCarrito.Columns.Add("Total", "Total");
+            dataGridViewCarrito.Columns.Add("nombre", "nombre");
+            dataGridViewCarrito.Columns.Add("precio", "precio");
+            dataGridViewCarrito.Columns.Add("cantidad", "pantidad");
+            dataGridViewCarrito.Columns.Add("total", "total");
+        }
+
+        public void cargarCarrito()
+        {
+            GestorDeHistorial gestorDeHistorial = new GestorDeHistorial(usua);
+            CarritoList = gestorDeHistorial.CargarCarrito();
         }
         private void CargarPostres()
         {
@@ -132,8 +142,7 @@ namespace SugarStock.FORMs
 
         private void Carrito_Load(object sender, EventArgs e)
         {
-            // Aquí puedes agregar cualquier lógica que necesites al cargar el formulario
-            //CargarPostres(); // Puedes llamar a CargarPostres si es necesario
+            dataGridViewCarrito.DataSource = CarritoList;
         }
 
       
@@ -174,9 +183,16 @@ namespace SugarStock.FORMs
 
         }
 
-        internal object AgregarProducto(string nombreProducto, string descripcionProducto, double precioProducto, int cantidadProducto)
+        internal void AgregarProducto(string nombreProducto, double precioProducto, int cantidadProducto)
         {
-            throw new NotImplementedException();
+            dataGridViewCarrito.Rows.Add(nombreProducto,precioProducto, cantidadProducto, (precioProducto*cantidadProducto ));
+            Carritos cart = new Carritos();
+            cart.nombre = nombreProducto;
+            cart.precio = precioProducto;
+            cart.cantidad = cantidadProducto;
+            cart.total = precioProducto * cantidadProducto;
+            CarritoList.Add(cart);
+            
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

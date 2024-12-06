@@ -57,7 +57,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Files\TXT.cs" />
     <Compile Include="FORMs\AllProgram.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,8 +99,10 @@
     <Compile Include="FORMs\Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Carritos.cs" />
     <Compile Include="Models\Credenciales.cs" />
     <Compile Include="Models\Gestor credenciales.cs" />
+    <Compile Include="Models\GestorDeHistorial.cs" />
     <Compile Include="Models\Nav.cs" />
     <Compile Include="Models\Postres.cs" />
     <Compile Include="Models\PostresManager.cs" />

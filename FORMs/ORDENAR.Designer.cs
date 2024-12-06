@@ -29,6 +29,12 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.DescLB = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.PBimage = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.Namelb = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Lesscant = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -37,18 +43,12 @@
             this.PriceLB = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.BtnCart = new System.Windows.Forms.Button();
-            this.Namelb = new System.Windows.Forms.Label();
-            this.PBimage = new System.Windows.Forms.PictureBox();
-            this.DescLB = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PBimage)).BeginInit();
-            this.panel5.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PBimage)).BeginInit();
+            this.panel5.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -62,6 +62,86 @@
             this.panel1.Size = new System.Drawing.Size(909, 564);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.SeaShell;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
+            this.tableLayoutPanel1.Controls.Add(this.DescLB, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.panel3, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 100);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(909, 257);
+            this.tableLayoutPanel1.TabIndex = 6;
+            // 
+            // DescLB
+            // 
+            this.DescLB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DescLB.AutoEllipsis = true;
+            this.DescLB.BackColor = System.Drawing.Color.SeaShell;
+            this.DescLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DescLB.Location = new System.Drawing.Point(502, 0);
+            this.DescLB.Name = "DescLB";
+            this.DescLB.Size = new System.Drawing.Size(404, 257);
+            this.DescLB.TabIndex = 2;
+            this.DescLB.Text = "El tiramisu";
+            this.DescLB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DescLB.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.SeaShell;
+            this.panel3.Controls.Add(this.PBimage);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(493, 251);
+            this.panel3.TabIndex = 0;
+            // 
+            // PBimage
+            // 
+            this.PBimage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PBimage.Cursor = System.Windows.Forms.Cursors.Default;
+            this.PBimage.Image = global::SugarStock.Properties.Resources.brownies_de_chocolate_2_1;
+            this.PBimage.Location = new System.Drawing.Point(108, 43);
+            this.PBimage.Name = "PBimage";
+            this.PBimage.Size = new System.Drawing.Size(247, 164);
+            this.PBimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PBimage.TabIndex = 1;
+            this.PBimage.TabStop = false;
+            this.PBimage.Click += new System.EventHandler(this.PBimage_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel5.Controls.Add(this.Namelb);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 0);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(909, 100);
+            this.panel5.TabIndex = 5;
+            // 
+            // Namelb
+            // 
+            this.Namelb.BackColor = System.Drawing.Color.White;
+            this.Namelb.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Namelb.Font = new System.Drawing.Font("Montserrat ExtraBold", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Namelb.Location = new System.Drawing.Point(0, 0);
+            this.Namelb.Name = "Namelb";
+            this.Namelb.Size = new System.Drawing.Size(909, 100);
+            this.Namelb.TabIndex = 0;
+            this.Namelb.Text = "TIRAMISU";
+            this.Namelb.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Namelb.Click += new System.EventHandler(this.Namelb_Click);
             // 
             // panel2
             // 
@@ -131,9 +211,9 @@
             this.PriceLB.Font = new System.Drawing.Font("Montserrat Medium", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PriceLB.Location = new System.Drawing.Point(727, 35);
             this.PriceLB.Name = "PriceLB";
-            this.PriceLB.Size = new System.Drawing.Size(103, 42);
+            this.PriceLB.Size = new System.Drawing.Size(86, 42);
             this.PriceLB.TabIndex = 5;
-            this.PriceLB.Text = "10.99$";
+            this.PriceLB.Text = "10.99";
             // 
             // label3
             // 
@@ -160,86 +240,6 @@
             this.BtnCart.UseVisualStyleBackColor = false;
             this.BtnCart.Click += new System.EventHandler(this.BtnCart_Click);
             // 
-            // Namelb
-            // 
-            this.Namelb.BackColor = System.Drawing.Color.White;
-            this.Namelb.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Namelb.Font = new System.Drawing.Font("Montserrat ExtraBold", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Namelb.Location = new System.Drawing.Point(0, 0);
-            this.Namelb.Name = "Namelb";
-            this.Namelb.Size = new System.Drawing.Size(909, 100);
-            this.Namelb.TabIndex = 0;
-            this.Namelb.Text = "TIRAMISU";
-            this.Namelb.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Namelb.Click += new System.EventHandler(this.Namelb_Click);
-            // 
-            // PBimage
-            // 
-            this.PBimage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.PBimage.Cursor = System.Windows.Forms.Cursors.Default;
-            this.PBimage.Image = global::SugarStock.Properties.Resources.brownies_de_chocolate_2_1;
-            this.PBimage.Location = new System.Drawing.Point(108, 43);
-            this.PBimage.Name = "PBimage";
-            this.PBimage.Size = new System.Drawing.Size(247, 164);
-            this.PBimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PBimage.TabIndex = 1;
-            this.PBimage.TabStop = false;
-            this.PBimage.Click += new System.EventHandler(this.PBimage_Click);
-            // 
-            // DescLB
-            // 
-            this.DescLB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DescLB.AutoEllipsis = true;
-            this.DescLB.BackColor = System.Drawing.Color.SeaShell;
-            this.DescLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescLB.Location = new System.Drawing.Point(502, 0);
-            this.DescLB.Name = "DescLB";
-            this.DescLB.Size = new System.Drawing.Size(404, 257);
-            this.DescLB.TabIndex = 2;
-            this.DescLB.Text = "El tiramisu";
-            this.DescLB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.DescLB.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel5.Controls.Add(this.Namelb);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(909, 100);
-            this.panel5.TabIndex = 5;
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.SeaShell;
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
-            this.tableLayoutPanel1.Controls.Add(this.DescLB, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel3, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 100);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(909, 257);
-            this.tableLayoutPanel1.TabIndex = 6;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.SeaShell;
-            this.panel3.Controls.Add(this.PBimage);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(493, 251);
-            this.panel3.TabIndex = 0;
-            // 
             // ORDENAR
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -251,12 +251,12 @@
             this.Name = "ORDENAR";
             this.Text = "ORDENAR";
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PBimage)).EndInit();
-            this.panel5.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PBimage)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }

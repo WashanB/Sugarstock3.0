@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SugarStock.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,13 +13,20 @@ namespace SugarStock.FORMs
 {
     public partial class ORDENAR : Form
     {
-        public ORDENAR(string nombre, string desc, string imagepath, double price)
+        
+        public ORDENAR(string nombre, string desc, string imagepath, double price, string user)
         {
             InitializeComponent();
             changeCont(nombre, desc, imagepath, price);
+            GestorDeHistorial gestorDeHistorial = new GestorDeHistorial(user);
+            carritos = gestorDeHistorial.CargarCarrito() ?? new List<Carritos>(); // Asegúrate de que carritos no sea null
+            
+            usuario = user;
+            
         }
         int cant = 1;
-
+        List<Carritos> carritos;
+        string usuario;
         public void changeCont(string nombre, string desc, string imagepath, double price)
         {
             try
@@ -26,7 +34,7 @@ namespace SugarStock.FORMs
                 Namelb.Text = nombre;
                 DescLB.Text = desc;
                 PBimage.Image = Image.FromFile(imagepath);
-                PriceLB.Text = $"{price} C$";
+                PriceLB.Text = $"{price}";
             }
             catch (Exception ex)
             {
@@ -90,8 +98,8 @@ namespace SugarStock.FORMs
         {
             // Obtener información del producto
             string nombreProducto = Namelb.Text; // Nombre del postre
-            string descripcionProducto = DescLB.Text; // Descripción del postre
-            double precioProducto;
+            int cantidadP = int.Parse(CantLB.Text);
+            double precioProducto = Double.Parse(PriceLB.Text);
 
             // Intentar obtener el precio y manejar posibles errores
             if (!double.TryParse(PriceLB.Text.Replace(" C$", "").Trim(), out precioProducto))
@@ -100,30 +108,46 @@ namespace SugarStock.FORMs
                 return;
             }
 
-            int cantidadProducto;
-
             // Intentar obtener la cantidad y manejar posibles errores
-            if (!int.TryParse(CantLB.Text, out cantidadProducto) || cantidadProducto <= 0)
+            else if (!int.TryParse(CantLB.Text, out cantidadP) || cantidadP <= 0)
             {
                 MessageBox.Show("Por favor, selecciona una cantidad válida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            else {
+                Console.WriteLine($"theBook{usuario}");
+                try
+                {
 
-            // Obtener referencia al formulario Carrito
-            Carrito carritoForm = Application.OpenForms.OfType<Carrito>().FirstOrDefault();
-
-            // Si el carrito no está abierto, crear una nueva instancia
-            if (carritoForm == null)
-            {
-                carritoForm = new Carrito();
-                carritoForm.Show();
+                    // Obtener referencia al formulario Carrito
+                    Carrito carritoForm = new Carrito(usuario);
+                    Carritos cart = new Carritos();
+                    cart.nombre = nombreProducto;
+                    cart.precio = precioProducto;
+                    cart.cantidad = cantidadP;
+                    cart.total = precioProducto * cantidadP;
+                    carritos.Add(cart);
+                    carritoForm.cargarCarrito();
+                    GestorDeHistorial gestorDeH = new GestorDeHistorial(usuario);
+                    gestorDeH.guardarCarrito(carritos);
+                } catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK);
+                }
             }
 
+            // Si el carrito no está abierto, crear una nueva instancia
+            //if (carritoForm == null)
+            //{
+            // carritoForm = new Carrito();
+            //carritoForm.Show();
+            // }
+
             // Agregar el producto al carrito
-            object value = carritoForm.AgregarProducto(nombreProducto, descripcionProducto, precioProducto, cantidadProducto);
+            //carritoForm.AgregarProducto(nombreProducto, precioProducto, cantidadP);
 
             // Mostrar un mensaje de confirmación
-            MessageBox.Show($"Se han agregado {cantidadProducto} {nombreProducto}(s) correctamente al carrito",
+            MessageBox.Show($"Se han agregado {cantidadP} {nombreProducto}(s) correctamente al carrito",
                             "Confirmación",
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Information);

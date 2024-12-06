@@ -184,6 +184,7 @@ namespace SugarStock.FORMs
                     {
                         // Crear una instancia de Gestor_credenciales
                         Gestor_credenciales gestorCredenciales = new Gestor_credenciales();
+                        GestorDeHistorial gestorDeHistorial = new GestorDeHistorial(usuario);
 
                         // Crear un objeto de Credenciales
                         var nuevaCredencial = new Credenciales(usuario, contraseña);

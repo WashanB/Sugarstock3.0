@@ -22,9 +22,10 @@ namespace SugarStock.FORMs
         private Form currentChildForm;
         private PostresManager postresManager;
         
-        public AllProgram(FormWindowState estado)
+        public AllProgram(FormWindowState estado,string usuario)
         {
             InitializeComponent();
+            user = usuario;
             leftBorderBtn = new System.Windows.Forms.Panel();
             leftBorderBtn.Size = new Size(7, 60);
             panelAside.Controls.Add(leftBorderBtn);
@@ -36,7 +37,7 @@ namespace SugarStock.FORMs
             this.WindowState = estado;
         }
 
-       
+        string user;
         
         private struct Colors
         {
@@ -107,13 +108,13 @@ namespace SugarStock.FORMs
         private void CartBtn_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, Colors.color2);
-            OpenChildForm(new Carrito());
+            OpenChildForm(new Carrito(user));
         }
 
         private void ProductsBtn_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, Colors.color3);
-            OpenChildForm(new Menu_principal(this));
+            OpenChildForm(new Menu_principal(this, user));
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
