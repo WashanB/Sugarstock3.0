@@ -31,13 +31,13 @@ namespace SugarStock.FORMs
             postresManager = new PostresManager(); // Inicializa el manager de postres
             //CargarPostres();
             //InicializarDataGridView();
-            string usua = user;
+            usua = user;
             // Llama a la función para inicializar el DataGridView
 
             // Conectar eventos de botones
             buttonEliminar.Click += buttonEliminar_Click;
             buttonConfirmar.Click += buttonConfirmar_Click;
-
+            dataGridViewCarrito.DataSource = bindingList;
             // Conectar el evento Load
             this.Load += Carrito_Load; // Asegúrate de que esta línea esté aquí si usas Carrito_Load
         }
@@ -72,85 +72,78 @@ namespace SugarStock.FORMs
         {
             if (dataGridViewCarrito.SelectedRows.Count > 0)
             {
-                // Crear una lista para almacenar los índices de las filas a eliminar
-                List<int> rowsToDelete = new List<int>();
+                GestorDeHistorial gestor = new GestorDeHistorial(usua);
+                // Crear una lista para almacenar los elementos a eliminar
+                List<Carritos> itemsToDelete = new List<Carritos>();
 
-                // Recorrer las filas seleccionadas y almacenar los índices
+                // Recorrer las filas seleccionadas y agregar los elementos correspondientes a la lista
                 foreach (DataGridViewRow row in dataGridViewCarrito.SelectedRows)
                 {
-                    if (!row.IsNewRow) // Verificar que no sea una nueva fila
+                    if (!row.IsNewRow) // Asegurarse de que no sea una nueva fila
                     {
-                        rowsToDelete.Add(row.Index);
+                        // Obtener el elemento correspondiente del BindingList
+                        Carritos item = (Carritos)row.DataBoundItem;
+                        itemsToDelete.Add(item);
                     }
                 }
 
-                // Eliminar las filas en orden inverso para evitar problemas de índice
-                for (int i = rowsToDelete.Count - 1; i >= 0; i--)
+                // Eliminar los elementos de la BindingList y de CarritoList
+                foreach (var item in itemsToDelete)
                 {
-                    dataGridViewCarrito.Rows.RemoveAt(rowsToDelete[i]);
+                    bindingList.Remove(item); // Esto actualizará automáticamente el DataGridView
+                    CarritoList.Remove(item);
+                    gestor.EliminarItemDelCarrito(item.nombre); // Asegúrate de que EliminarItemDelCarrito acepte el ID
                 }
 
-                // Actualizar total después de eliminar
-                // ActualizarTotal(); 
+                // Actualizar el archivo del carrito después de eliminar
+                gestor.guardarCarrito(CarritoList);
             }
             else
             {
-                MessageBox.Show("Por favor, selecciona un postre para eliminar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Por favor, selecciona un ítem para eliminar.");
             }
         }
 
         private void buttonConfirmar_Click(object sender, EventArgs e)
         {
-            if (dataGridViewCarrito.Rows.Count == 0)
+            if (CarritoList.Count == 0)
             {
                 MessageBox.Show("No hay postres en el carrito para confirmar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
-            // Aquí puedes implementar la lógica para procesar el pedido
+            // Preparar detalles del pedido
             string pedidoDetalles = "Detalles del pedido:\n";
-
-            foreach (DataGridViewRow row in dataGridViewCarrito.Rows)
-            {
-                if (row.Cells["Nombre"].Value != null)
-                {
-                    string nombre = row.Cells["Nombre"].Value.ToString();
-                    int cantidad = Convert.ToInt32(row.Cells["Cantidad"].Value);
-                    double precio = Convert.ToDouble(row.Cells["Precio"].Value.ToString().Replace("C$", "").Trim());
-                    double total = cantidad * precio;
-
-                    pedidoDetalles += $"{nombre} - Cantidad: {cantidad}, Total: {total.ToString("C", CultureInfo.CurrentCulture)}\n";
-                }
-            }
-
-            // Validar el contenido de LabelTotal
             double totalFinal = 0;
-            try
+
+            foreach (var item in bindingList)
             {
-                totalFinal = Convert.ToDouble(LabelTotal.Text.Replace("Total: C$", "").Trim());
-            }
-            catch (FormatException)
-            {
-                MessageBox.Show("El total no es válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                pedidoDetalles += $"{item.nombre} - Cantidad: {item.cantidad}, Total: {item.total.ToString("C", CultureInfo.CurrentCulture)}\n";
+                totalFinal += item.total;
             }
 
             pedidoDetalles += $"\nTotal a pagar: {totalFinal.ToString("C", CultureInfo.CurrentCulture)}";
 
-            // Aquí puedes implementar la lógica para guardar el pedido o enviarlo a una base de datos
-
             MessageBox.Show(pedidoDetalles, "Confirmación de Pedido", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             // Limpiar el carrito después de confirmar
-            dataGridViewCarrito.Rows.Clear();
-            LabelTotal.Text = "Total: C$0"; // Reiniciar el total
+            bindingList.Clear(); // Esto actualizará automáticamente el DataGridView
+            CarritoList.Clear(); // Limpiar la lista de carrito
+
+            // Actualizar el archivo del carrito (eliminarlo ya que está vacío)
+            GestorDeHistorial gestor = new GestorDeHistorial(usua);
+            gestor.ActualizarCarrito(CarritoList); // Asegúrate de que este método elimine todos los datos del archivo
+
         }
 
 
         private void Carrito_Load(object sender, EventArgs e)
         {
-            dataGridViewCarrito.DataSource = bindingList;
+            
+                dataGridViewCarrito.DataSource = bindingList; // Vincula el DataGridView a la BindingList
+            
         }
+        
 
       
             private void dataGridViewCarrito_CellValueChanged(object sender, DataGridViewCellEventArgs e)

@@ -3,68 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\reportes\\rptcarrito.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:reportes\\rptcarrito.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\models\\gestordehistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\gestordehistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\models\\carritos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\carritos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\dataset\\dscarrito.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:dataset\\dscarrito.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\dataset\\dscarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:dataset\\dscarrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\models\\gestordehistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\gestordehistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\frmreportes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\frmreportes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\models\\postres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\postres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|c:\\users\\carlo\\onedrive\\documentos\\mecagioentodo2\\forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\allprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\frmreportes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\frmreportes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\models\\gestor credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:models\\gestor credenciales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\menu_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -73,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|solutionrelative:forms\\ordenar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CAA3D40E-DDEC-430A-A027-9A44C27C9B0F}|SugarStock.csproj|C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\forms\\forms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -102,77 +82,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Postres.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Postres.cs",
-              "RelativeDocumentMoniker": "Models\\Postres.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Postres.cs",
-              "RelativeToolTip": "Models\\Postres.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T22:41:35.357Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Forms.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs",
-              "RelativeDocumentMoniker": "FORMs\\Forms.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs",
-              "RelativeToolTip": "FORMs\\Forms.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T22:14:34.76Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GestorDeHistorial.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\GestorDeHistorial.cs",
-              "RelativeDocumentMoniker": "Models\\GestorDeHistorial.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\GestorDeHistorial.cs",
-              "RelativeToolTip": "Models\\GestorDeHistorial.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA9wDsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T22:24:14.598Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Carrito.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
-              "RelativeDocumentMoniker": "FORMs\\Carrito.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
-              "RelativeToolTip": "FORMs\\Carrito.cs",
-              "ViewState": "AgIAALwAAAAAAAAAAAAswOAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T21:16:03.674Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DsCarrito.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\DataSet\\DsCarrito.cs",
-              "RelativeDocumentMoniker": "DataSet\\DsCarrito.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\DataSet\\DsCarrito.cs",
-              "RelativeToolTip": "DataSet\\DsCarrito.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T05:40:14.624Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1533048680:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
@@ -195,19 +106,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RptCarrito.rdlc [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Reportes\\RptCarrito.rdlc",
-              "RelativeDocumentMoniker": "Reportes\\RptCarrito.rdlc",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Reportes\\RptCarrito.rdlc [Dise\u00F1o]*",
-              "RelativeToolTip": "Reportes\\RptCarrito.rdlc [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
-              "WhenOpened": "2024-12-06T04:13:16.524Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "DocumentIndex": 4,
+              "Title": "Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
+              "RelativeDocumentMoniker": "FORMs\\Carrito.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
+              "RelativeToolTip": "FORMs\\Carrito.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:07:17.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ORDENAR.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\ORDENAR.cs",
+              "RelativeDocumentMoniker": "FORMs\\ORDENAR.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\ORDENAR.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FORMs\\ORDENAR.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T01:32:56.132Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AllProgram.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
+              "RelativeDocumentMoniker": "FORMs\\AllProgram.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
+              "RelativeToolTip": "FORMs\\AllProgram.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAIAwwLkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T02:33:05.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Carritos.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Carritos.cs",
               "RelativeDocumentMoniker": "Models\\Carritos.cs",
@@ -220,69 +157,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DsCarrito.xsd",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\DataSet\\DsCarrito.xsd",
-              "RelativeDocumentMoniker": "DataSet\\DsCarrito.xsd",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\DataSet\\DsCarrito.xsd",
-              "RelativeToolTip": "DataSet\\DsCarrito.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2024-12-06T05:31:56.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmReportes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\FrmReportes.cs",
-              "RelativeDocumentMoniker": "FORMs\\FrmReportes.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\FrmReportes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FORMs\\FrmReportes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T04:24:41.371Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "FrmReportes.Designer.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\FrmReportes.Designer.cs",
               "RelativeDocumentMoniker": "FORMs\\FrmReportes.Designer.cs",
               "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\FrmReportes.Designer.cs",
               "RelativeToolTip": "FORMs\\FrmReportes.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T04:38:03.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Carrito.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
-              "RelativeDocumentMoniker": "FORMs\\Carrito.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FORMs\\Carrito.cs [Dise\u00F1o]",
+              "DocumentIndex": 8,
+              "Title": "Menu_principal.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Menu_principal.cs",
+              "RelativeDocumentMoniker": "FORMs\\Menu_principal.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Menu_principal.cs",
+              "RelativeToolTip": "FORMs\\Menu_principal.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAjwJgAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T00:45:18.877Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ORDENAR.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\ORDENAR.cs",
-              "RelativeDocumentMoniker": "FORMs\\ORDENAR.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\ORDENAR.cs",
-              "RelativeToolTip": "FORMs\\ORDENAR.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAkwHQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T21:15:16.137Z",
+              "WhenOpened": "2024-12-05T21:18:17.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "AllProgram.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
               "RelativeDocumentMoniker": "FORMs\\AllProgram.cs",
@@ -294,20 +195,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AllProgram.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
-              "RelativeDocumentMoniker": "FORMs\\AllProgram.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\AllProgram.cs",
-              "RelativeToolTip": "FORMs\\AllProgram.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAjwLkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ORDENAR.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\ORDENAR.cs",
+              "RelativeDocumentMoniker": "FORMs\\ORDENAR.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\ORDENAR.cs",
+              "RelativeToolTip": "FORMs\\ORDENAR.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAD4v2IAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:33:05.389Z",
+              "WhenOpened": "2024-12-05T21:15:16.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
+              "Title": "GestorDeHistorial.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\GestorDeHistorial.cs",
+              "RelativeDocumentMoniker": "Models\\GestorDeHistorial.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\GestorDeHistorial.cs",
+              "RelativeToolTip": "Models\\GestorDeHistorial.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:07:32.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Carrito.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs",
+              "RelativeDocumentMoniker": "FORMs\\Carrito.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Carrito.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FORMs\\Carrito.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T00:45:18.877Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu_principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Menu_principal.cs",
+              "RelativeDocumentMoniker": "FORMs\\Menu_principal.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Menu_principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FORMs\\Menu_principal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:00:46.511Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Gestor credenciales.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Gestor credenciales.cs",
               "RelativeDocumentMoniker": "Models\\Gestor credenciales.cs",
@@ -315,49 +253,22 @@
               "RelativeToolTip": "Models\\Gestor credenciales.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T02:17:59.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T02:17:59.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Menu_principal.cs",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Menu_principal.cs",
-              "RelativeDocumentMoniker": "FORMs\\Menu_principal.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Menu_principal.cs",
-              "RelativeToolTip": "FORMs\\Menu_principal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T21:18:17.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ORDENAR.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\ORDENAR.cs",
-              "RelativeDocumentMoniker": "FORMs\\ORDENAR.cs",
-              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\ORDENAR.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FORMs\\ORDENAR.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T01:32:56.132Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
               "Title": "Register.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Register.cs",
               "RelativeDocumentMoniker": "FORMs\\Register.cs",
               "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Register.cs [Dise\u00F1o]",
               "RelativeToolTip": "FORMs\\Register.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T01:10:26.459Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-06T01:10:26.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 13,
               "Title": "Register.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Register.cs",
               "RelativeDocumentMoniker": "FORMs\\Register.cs",
@@ -365,12 +276,11 @@
               "RelativeToolTip": "FORMs\\Register.cs",
               "ViewState": "AgIAAKQAAAAAAAAAAAAYwLsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:04:30.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:04:30.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 14,
               "Title": "Forms.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\Forms.cs",
               "RelativeDocumentMoniker": "FORMs\\Forms.cs",
@@ -382,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 15,
               "Title": "Nav.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\Nav.cs",
               "RelativeDocumentMoniker": "Models\\Nav.cs",
@@ -390,12 +300,11 @@
               "RelativeToolTip": "Models\\Nav.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T00:06:14.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T00:06:14.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 16,
               "Title": "PostresManager.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\Models\\PostresManager.cs",
               "RelativeDocumentMoniker": "Models\\PostresManager.cs",
@@ -403,20 +312,18 @@
               "RelativeToolTip": "Models\\PostresManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T00:16:12.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T00:16:12.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 17,
               "Title": "idk.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\idk.cs",
               "RelativeDocumentMoniker": "FORMs\\idk.cs",
               "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\MECAGIOENTODO2\\FORMs\\idk.cs [Dise\u00F1o]",
               "RelativeToolTip": "FORMs\\idk.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T22:14:20.708Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-05T22:14:20.708Z"
             }
           ]
         },

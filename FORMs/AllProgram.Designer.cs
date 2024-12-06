@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panelAside = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.ProductsBtn = new FontAwesome.Sharp.IconButton();
             this.CartBtn = new FontAwesome.Sharp.IconButton();
-            this.AccountBtn = new FontAwesome.Sharp.IconButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Headerpanel = new System.Windows.Forms.Panel();
             this.MaxBtn = new FontAwesome.Sharp.IconButton();
@@ -42,7 +42,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.Fillpanel = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.panelAside.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.Headerpanel.SuspendLayout();
@@ -57,7 +56,6 @@
             this.panelAside.Controls.Add(this.button1);
             this.panelAside.Controls.Add(this.ProductsBtn);
             this.panelAside.Controls.Add(this.CartBtn);
-            this.panelAside.Controls.Add(this.AccountBtn);
             this.panelAside.Controls.Add(this.pictureBox1);
             this.panelAside.Cursor = System.Windows.Forms.Cursors.Default;
             this.panelAside.Dock = System.Windows.Forms.DockStyle.Left;
@@ -67,6 +65,20 @@
             this.panelAside.Padding = new System.Windows.Forms.Padding(0, 5, 0, 0);
             this.panelAside.Size = new System.Drawing.Size(175, 645);
             this.panelAside.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.button1.BackColor = System.Drawing.Color.Tomato;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(12, 603);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(126, 30);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Cerrar Sesion";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ProductsBtn
             // 
@@ -80,7 +92,7 @@
             this.ProductsBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.ProductsBtn.IconSize = 32;
             this.ProductsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ProductsBtn.Location = new System.Drawing.Point(0, 218);
+            this.ProductsBtn.Location = new System.Drawing.Point(0, 158);
             this.ProductsBtn.Name = "ProductsBtn";
             this.ProductsBtn.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.ProductsBtn.Size = new System.Drawing.Size(175, 60);
@@ -103,7 +115,7 @@
             this.CartBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.CartBtn.IconSize = 32;
             this.CartBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.CartBtn.Location = new System.Drawing.Point(0, 158);
+            this.CartBtn.Location = new System.Drawing.Point(0, 98);
             this.CartBtn.Name = "CartBtn";
             this.CartBtn.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.CartBtn.Size = new System.Drawing.Size(175, 60);
@@ -114,35 +126,12 @@
             this.CartBtn.UseVisualStyleBackColor = false;
             this.CartBtn.Click += new System.EventHandler(this.CartBtn_Click);
             // 
-            // AccountBtn
-            // 
-            this.AccountBtn.BackColor = System.Drawing.Color.Transparent;
-            this.AccountBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.AccountBtn.FlatAppearance.BorderSize = 0;
-            this.AccountBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AccountBtn.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AccountBtn.IconChar = FontAwesome.Sharp.IconChar.UserAlt;
-            this.AccountBtn.IconColor = System.Drawing.Color.Black;
-            this.AccountBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.AccountBtn.IconSize = 32;
-            this.AccountBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.AccountBtn.Location = new System.Drawing.Point(0, 98);
-            this.AccountBtn.Name = "AccountBtn";
-            this.AccountBtn.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.AccountBtn.Size = new System.Drawing.Size(175, 60);
-            this.AccountBtn.TabIndex = 3;
-            this.AccountBtn.Text = "Cuenta";
-            this.AccountBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.AccountBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.AccountBtn.UseVisualStyleBackColor = false;
-            this.AccountBtn.Click += new System.EventHandler(this.AccountBtn_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Image = global::SugarStock.Properties.Resources.Component_3;
             this.pictureBox1.Location = new System.Drawing.Point(0, 5);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(175, 93);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -275,19 +264,6 @@
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Tomato;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(12, 603);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 30);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Cerrar Sesion";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // AllProgram
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -297,7 +273,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Headerpanel);
             this.Controls.Add(this.panelAside);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(1140, 683);
             this.Name = "AllProgram";
             this.Text = "AllProgram";
@@ -315,7 +291,6 @@
 
         private System.Windows.Forms.Panel panelAside;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private FontAwesome.Sharp.IconButton AccountBtn;
         private FontAwesome.Sharp.IconButton ProductsBtn;
         private FontAwesome.Sharp.IconButton CartBtn;
         private System.Windows.Forms.Panel Headerpanel;

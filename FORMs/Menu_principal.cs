@@ -150,7 +150,7 @@ namespace SugarStock.FORMs
         {
             string pname = "Galletas decoradas";
             string pdesc = "Galletas de vainilla con decoraciones de todo tipo, haz brillar tu imaginacion con estas deliciosas galletas que te llevaran a mundos increibles e imaginarios. Ahora al alcance de tu paladar.";
-            string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "Cook");
+            string image = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "cookie.jpg");
             double pprice = 50;
             
 

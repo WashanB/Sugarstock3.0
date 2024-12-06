@@ -32,7 +32,6 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.DescLB = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.PBimage = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.Namelb = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -43,12 +42,14 @@
             this.PriceLB = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.BtnCart = new System.Windows.Forms.Button();
+            this.PBimage = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PBimage)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PBimage)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -105,21 +106,6 @@
             this.panel3.Size = new System.Drawing.Size(493, 251);
             this.panel3.TabIndex = 0;
             // 
-            // PBimage
-            // 
-            this.PBimage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.PBimage.Cursor = System.Windows.Forms.Cursors.Default;
-            this.PBimage.Image = global::SugarStock.Properties.Resources.brownies_de_chocolate_2_1;
-            this.PBimage.Location = new System.Drawing.Point(108, 43);
-            this.PBimage.Name = "PBimage";
-            this.PBimage.Size = new System.Drawing.Size(247, 164);
-            this.PBimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PBimage.TabIndex = 1;
-            this.PBimage.TabStop = false;
-            this.PBimage.Click += new System.EventHandler(this.PBimage_Click);
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.ControlDark;
@@ -146,6 +132,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FloralWhite;
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.Lesscant);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.CantLB);
@@ -162,8 +149,8 @@
             // 
             // Lesscant
             // 
-            this.Lesscant.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.Lesscant.Location = new System.Drawing.Point(673, 93);
+            this.Lesscant.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Lesscant.Location = new System.Drawing.Point(443, 68);
             this.Lesscant.Name = "Lesscant";
             this.Lesscant.Size = new System.Drawing.Size(70, 30);
             this.Lesscant.TabIndex = 9;
@@ -173,8 +160,8 @@
             // 
             // button2
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button2.Location = new System.Drawing.Point(799, 93);
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.Location = new System.Drawing.Point(580, 68);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(70, 30);
             this.button2.TabIndex = 8;
@@ -184,9 +171,9 @@
             // 
             // CantLB
             // 
-            this.CantLB.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.CantLB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CantLB.Font = new System.Drawing.Font("Montserrat Medium", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CantLB.Location = new System.Drawing.Point(749, 93);
+            this.CantLB.Location = new System.Drawing.Point(519, 68);
             this.CantLB.Name = "CantLB";
             this.CantLB.Size = new System.Drawing.Size(55, 30);
             this.CantLB.TabIndex = 7;
@@ -196,9 +183,10 @@
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Montserrat", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(51, 99);
+            this.label5.Location = new System.Drawing.Point(281, 58);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(156, 42);
             this.label5.TabIndex = 6;
@@ -206,10 +194,10 @@
             // 
             // PriceLB
             // 
-            this.PriceLB.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.PriceLB.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PriceLB.AutoSize = true;
             this.PriceLB.Font = new System.Drawing.Font("Montserrat Medium", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PriceLB.Location = new System.Drawing.Point(727, 35);
+            this.PriceLB.Location = new System.Drawing.Point(518, 3);
             this.PriceLB.Name = "PriceLB";
             this.PriceLB.Size = new System.Drawing.Size(86, 42);
             this.PriceLB.TabIndex = 5;
@@ -217,9 +205,10 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Montserrat", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(51, 35);
+            this.label3.Location = new System.Drawing.Point(281, 3);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(135, 42);
             this.label3.TabIndex = 4;
@@ -240,6 +229,33 @@
             this.BtnCart.UseVisualStyleBackColor = false;
             this.BtnCart.Click += new System.EventHandler(this.BtnCart_Click);
             // 
+            // PBimage
+            // 
+            this.PBimage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.PBimage.Cursor = System.Windows.Forms.Cursors.Default;
+            this.PBimage.Image = global::SugarStock.Properties.Resources.brownies_de_chocolate_2_1;
+            this.PBimage.Location = new System.Drawing.Point(108, 43);
+            this.PBimage.MaximumSize = new System.Drawing.Size(800, 800);
+            this.PBimage.Name = "PBimage";
+            this.PBimage.Size = new System.Drawing.Size(247, 164);
+            this.PBimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PBimage.TabIndex = 1;
+            this.PBimage.TabStop = false;
+            this.PBimage.Click += new System.EventHandler(this.PBimage_Click);
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Montserrat Medium", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(439, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 42);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "C$";
+            // 
             // ORDENAR
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -253,10 +269,10 @@
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PBimage)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PBimage)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -278,5 +294,6 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label1;
     }
 }
