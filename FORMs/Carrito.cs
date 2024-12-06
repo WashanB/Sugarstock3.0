@@ -1,4 +1,6 @@
-﻿using SugarStock.Models;
+﻿using Microsoft.Reporting.WinForms;
+using SugarStock.DataSet;
+using SugarStock.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,14 +17,17 @@ namespace SugarStock.FORMs
     public partial class Carrito : Form
     {
         private PostresManager postresManager = new PostresManager();
-        
-       /// private Carrito carrito;
+        private BindingList<Carritos> bindingList;
+        List<Carritos> CarritoList;
+
+        /// private Carrito carrito;
 
         public Carrito(string user)
         {
             GestorDeHistorial gestorDeHistorial = new GestorDeHistorial(user);
             CarritoList = gestorDeHistorial.CargarCarrito();
             InitializeComponent();
+            bindingList = new BindingList<Carritos>(CarritoList);
             postresManager = new PostresManager(); // Inicializa el manager de postres
             //CargarPostres();
             //InicializarDataGridView();
@@ -36,7 +41,9 @@ namespace SugarStock.FORMs
             // Conectar el evento Load
             this.Load += Carrito_Load; // Asegúrate de que esta línea esté aquí si usas Carrito_Load
         }
-        List<Carritos> CarritoList;
+        
+        
+
         string usua;
         private void InicializarDataGridView()
         {
@@ -142,7 +149,7 @@ namespace SugarStock.FORMs
 
         private void Carrito_Load(object sender, EventArgs e)
         {
-            dataGridViewCarrito.DataSource = CarritoList;
+            dataGridViewCarrito.DataSource = bindingList;
         }
 
       
@@ -199,9 +206,26 @@ namespace SugarStock.FORMs
         {
 
         }
-    }
 
-  }
+        private void BtnRport_Click(object sender, EventArgs e)
+        {
+          
+            ReportDataSource dataSource = new ReportDataSource("DsCart", bindingList);
+
+            FrmReportes frm = new FrmReportes();
+            frm.reportViewer1.LocalReport.DataSources.Clear();
+            frm.reportViewer1.LocalReport.DataSources.Add(dataSource);
+            // Configurar el archivo de reporte
+            frm.reportViewer1.LocalReport.ReportEmbeddedResource =
+                        "SugarStock.Reportes.RptCarrito.rdlc";
+            frm.reportViewer1.RefreshReport();
+            frm.ShowDialog();
+            
+        }
+    }
+}
+
+  
 
 
 

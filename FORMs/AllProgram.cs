@@ -174,5 +174,12 @@ namespace SugarStock.FORMs
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Forms forms = new Forms();
+            forms.Show();
+            this.Close();
+        }
     }
 }
